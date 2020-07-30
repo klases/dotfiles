@@ -1,1 +1,1 @@
-/home/claes/dotfiles/vimrc
+/home/claes/supreme-tools-basket/.vimrc
