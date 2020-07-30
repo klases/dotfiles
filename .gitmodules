@@ -1,0 +1,12 @@
+[submodule ".vim/plugged/nerdtree"]
+	path = .vim/plugged/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule ".vim/plugged/vim-gitgutter"]
+	path = .vim/plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule ".vim/plugged/vim-autoformat"]
+	path = .vim/plugged/vim-autoformat
+	url = https://github.com/chiel92/vim-autoformat
+[submodule ".vim/plugged/vim-easy-align"]
+	path = .vim/plugged/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
