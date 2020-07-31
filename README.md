@@ -35,11 +35,14 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $H
         fc-cache -fv
         ```
     - **Windows with WSL2 and hyper**
-    
-        TODO
-
-
-
+        ```powershell
+        git clone https://github.com/powerline/fonts.git --depth=1
+        cd fonts
+        Set-ExecutionPolicy Bypass
+        ./install.ps1
+        cd ..
+        Remove-Item fonts -Recurse -Force
+        ```
 6. Clone and add dotfiles
     ```bash
     curl -Lks http://bit.do/cfg-install | /bin/bash
