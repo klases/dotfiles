@@ -63,22 +63,17 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load?
+#  Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl kube-ps1 minikube docker golang gcloud npm)
+plugins=(kubectl kube-ps1 minikube docker golang npm)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-export PATH=~/tools/flutter/bin:$PATH
-export PATH=~/tools/android-studio/bin:$PATH
-
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH=/usr/local/go/bin:$(go env GOPATH)/bin:$PATH
-# Add Flutter and andriod stodio to Path
 #export PATH=$PATH:$(go env GOPATH)/bin
 export GOPATH="/home/claes/go"
 # You may need to manually set your language environment
