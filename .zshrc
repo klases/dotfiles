@@ -73,9 +73,10 @@ plugins=(kubectl kube-ps1 minikube docker golang npm)
 source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH=/usr/local/go/bin:$(go env GOPATH)/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin
+# export PATH=/usr/local/go/bin:$(go env GOPATH)/bin:$PATH
 #export PATH=$PATH:$(go env GOPATH)/bin
-export GOPATH="/home/claes/go"
+export GOPATH="$HOME/go"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -98,7 +99,7 @@ export GOPATH="/home/claes/go"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias goMy="/home/claes/go/src/github.com/klases"
+alias goMy="$HOME/go/src/github.com/klases"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
