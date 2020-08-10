@@ -76,6 +76,9 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/local/go/bin
 # export PATH=/usr/local/go/bin:$(go env GOPATH)/bin:$PATH
 #export PATH=$PATH:$(go env GOPATH)/bin
+
+export GOPRIVATE=gitlab.com/srenity1,gitlab.com/zool-engineering
+
 export GOPATH="$HOME/go"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

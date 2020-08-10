@@ -69,6 +69,12 @@ svnd = svn dcommit
 svnl = svn log --oneline --show-commit
 
 
+
+## Gitlab
+[url "ssh://git@gitlab.com/"]
+  insteadOf = https://gitlab.com/
+
+
 [color]
     ui = true
 
