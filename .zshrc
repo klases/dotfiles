@@ -80,6 +80,7 @@ export PATH=$PATH:/usr/local/go/bin
 export GOPRIVATE=gitlab.com/srenity1,gitlab.com/zool-engineering
 
 export GOPATH="$HOME/go"
+export PATH="$PATH:$HOME/go/bin"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
