@@ -81,6 +81,10 @@ export GOPRIVATE=gitlab.com/srenity1,gitlab.com/zool-engineering
 
 export GOPATH="$HOME/go"
 export PATH="$PATH:$HOME/go/bin"
+
+
+export NPM_CONFIG_PREFIX=~/.npm-global
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -106,6 +110,11 @@ export PATH="$PATH:$HOME/go/bin"
 alias goMy="$HOME/go/src/github.com/klases"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+alias vim=nvim
+
+alias vpnUp='sudo wg-quick up SEintegrity_vpn'
+alias vpnDown='sudo wg-quick down SEintegrity_vpn '
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh

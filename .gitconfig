@@ -97,7 +97,7 @@ autocrlf = input
 compression = 9
 excludesfile = ~/.gitignore_global
 filemode = false
-	editor = vim
+editor = nvim
 
 [push]
 default = simple
