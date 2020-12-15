@@ -72,18 +72,12 @@ plugins=(kubectl kube-ps1 minikube docker golang npm)
 
 source $ZSH/oh-my-zsh.sh
 
-# export MANPATH="/usr/local/man:$MANPATH"
 export PATH=$PATH:/usr/local/go/bin
-# export PATH=/usr/local/go/bin:$(go env GOPATH)/bin:$PATH
-#export PATH=$PATH:$(go env GOPATH)/bin
 
 export GOPRIVATE=gitlab.com/srenity1,gitlab.com/zool-engineering
 
 export GOPATH="$HOME/go"
 export PATH="$PATH:$HOME/go/bin"
-
-
-export NPM_CONFIG_PREFIX=~/.npm-global
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -115,6 +109,10 @@ alias vim=nvim
 
 alias vpnUp='sudo wg-quick up SEintegrity_vpn'
 alias vpnDown='sudo wg-quick down SEintegrity_vpn '
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
