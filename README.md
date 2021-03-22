@@ -35,9 +35,14 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $H
         fc-cache -fv
         ```
     - **Windows with WSL2 and hyper**
-        ```powershell
+
+        Grab the powerline font with git
+        ```bash
         git clone https://github.com/powerline/fonts.git --depth=1
-        cd fonts
+        ```
+
+        ```powershell
+        cd \\wsl$\Ubuntu\home\exclekl\fonts
         Set-ExecutionPolicy Bypass
         ./install.ps1
         cd ..
